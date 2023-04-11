@@ -13,3 +13,11 @@ total_charge = subtotal_before_tax + sales_tax
 paid_cash = false
 paid_credit_card = true
 paid_applepay = false
+
+first_name = "Tina"
+last_name = "Belcher"
+user_id = "tbelcher"
+
+puts "Thank you #{first_name} for shopping with us!"
+puts "The total charge made to your credit card was $#{total_charge}. (Subtotal $#{subtotal_before_tax} & Sales Tax $#{sales_tax})"
+puts "You are all set. See you next time!"
